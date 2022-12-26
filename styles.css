@@ -1,0 +1,26 @@
+.greeting{
+    color: blue;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    /* --custom name: value; */
+
+    /* BACKGROUND COLORS */
+    /* header and footer background */
+    /* --navy-clr: #1f2937; */
+
+    /* example: color: var(--navy-clr) */
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
