@@ -1,7 +1,3 @@
-.greeting{
-    color: blue;
-}
-
 *,
 *::before,
 *::after{
@@ -23,4 +19,79 @@ body{
     padding: 0px;
     display: flex;
     flex-direction: column;
+}
+
+.screen-container{
+    display: flex;
+}
+
+/* .background-image{
+    width: 40vw;
+    height: 100vh;
+    background-color: blue;
+    background-image: url('../Sign-Up-Form/images/Odin\ Logo.png'),
+    url('../Sign-Up-Form/images/Halie\ West\ on\ Unsplash.jpg');
+    background-size: 60%,cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+} */
+
+/* font-family: 'Noto Nastaliq Urdu', serif;
+font-family: 'Skranji', cursive; */
+
+.left-side-container{
+    position: relative;
+    width: 40%;
+    display: flex;
+}
+
+.background-image{
+    width: 40vw;
+    height: 110vh;
+    z-index: -1;
+    position: absolute;
+    background-color: blue;
+    background-image: url('../Sign-Up-Form/images/Halie\ West\ on\ Unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+.banner{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.450);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 9rem;
+    overflow: hidden;
+}
+
+.odin-logo{
+    width: 15%;
+    flex: 0 1 auto;
+}
+
+.logo-letter-banner{
+    font-family: 'Skranji', cursive, sans-serif;
+    font-size: 3rem;
+    color: white;
+    flex: 0 1 auto;
+}
+
+.photo-credit{
+    color: rgba(255, 255, 255, 0.664);
+    font-family: 'Noto Nastaliq Urdu', serif, sans-serif;
+    font-size: small;
+    position: absolute;
+    top: 95vh;
+    left: 1px;
+}
+
+a{
+    color: rgba(255, 255, 255, 0.664);  
 }
