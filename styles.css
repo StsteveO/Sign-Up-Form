@@ -37,7 +37,7 @@ body{
 
 .background-image{
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     z-index: -1;
     position: absolute;
     background-color: blue;
@@ -101,8 +101,53 @@ a{
 }
 
 .form{
+    /* font-family: 'Noto Nastaliq Urdu', serif; */
     padding-top: 0.1rem;
     background-color: var(--dark-green-bg);
     color: white;
     padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+
+.inputs{
+    display: flex;
+    gap: 5rem;
+}
+
+input{
+    border-radius: 5px;
+    height: 2rem;
+    width: 15rem;
+}
+
+button{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    background-color: var(--light-green-bg);
+    color: white;
+    padding: .5rem 3rem 1rem 3rem;
+    border-radius: .5rem;
+    font-weight: 300;
+    font-size: large;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.log-in{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    /* padding-top: 3rem; */
+    padding-bottom: 2rem;
+}
+
+.log-in-click{
+    color: var(--light-green-bg);
+}
+
+.log-in-click:hover{
+    color: var(--opposite-purple);
+    cursor: pointer;
 }
